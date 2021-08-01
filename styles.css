@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color:#000;
+}
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pagination button{
+    width:50px;
+    height:50px;
+    border: none;
+    background-color: rgb(7, 11, 247);
+    color:#fff;
+    font-size: 18px;
+    margin: 30px 10px;
+}
+#pagination button:hover{
+    background-color: aqua;
+}
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+td,tr,th{
+    height: 40px;
+    text-align: center;
+    border: 3px solid #000;
+}
